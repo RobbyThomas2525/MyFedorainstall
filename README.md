@@ -57,7 +57,6 @@ Timeshift: use this command 'sudo dnf update' and 'sudo dnf install timeshift'
 
 GIMP use flatpak or appimage
 
-ffmpeg (so i can look at info about video files)
 
 
 
