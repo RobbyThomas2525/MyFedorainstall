@@ -5,7 +5,13 @@ but i'll still need to know some commands compared to debian
 Step 1 is first getting the .iso i'm still desiding if i want to use fedora or something like bazzite
 but the install process should be the same 
 
-Step 2 is customizing the OS with these quick settings they should be the same as my arch page 
+Step 2 after install and if you want going though the secure boot part (next part is for fedora) is install rpm-fusion using graphical setup or use the command line from this page 
+https://rpmfusion.org/Configuration
+
+Then after install full ffmpeg using this because of some reason fedora doesn't support H264 out of the box 
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+
+the other part is customizing the OS with these quick settings they should be the same as my arch page 
 since i'm still plan on using KDE
 
 "Also to customize it so something like kdewallet stops popping up here's some helpful guides Startup with nothing opened: https://forum.manjaro.org/t/restart-shut-down-and-resume-from-sleep-dont-work/170282/4
@@ -26,7 +32,8 @@ Chromium: https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or
 
 Step 4 is installing games i'll leave some different way depending on the launcher 
 
-Steam: https://docs.stg.fedoraproject.org/gl/gaming/proton/
+Steam: after doing the multimedia step for KDE go to the store then settings then go to "RPM Fusion for Fedora 44-Nonfree-Steam" then search Steam i found this easier than going by the fedora site but i left it here if you wanna do it that way 
+https://docs.stg.fedoraproject.org/gl/gaming/proton/
 
 Heroic Launcher: Either use the appimage or use the flatpak 
 
