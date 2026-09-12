@@ -64,7 +64,7 @@ Clone hero just install like a appimage
 
 step 4.5 GAME ADD ONS
 
-Mangohud use releases on github and use ./mangohud-setup.sh install command
+Mangohud use releases on github and use "./mangohud-setup.sh install" command in terminal
 
 Goverlay use appimage or apparently sudo dnf install goverlay -y will work 
 
