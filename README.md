@@ -24,11 +24,23 @@ For appimages to put on desktop us this to get by the root problem in arch or an
 
 Step 3 is browsers i would try and avoid using flatpaks for browsers but here's the ways for 3 popular ones
 
-Brave: https://brave.com/linux/#fedora-41-dnf5
+Brave: sudo dnf install dnf-plugins-core
 
-LibreWolf: https://librewolf.net/installation/rhel/
+sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 
-Chromium: https://docs.fedoraproject.org/en-US/quick-docs/installing-chromium-or-google-chrome-browsers/
+sudo dnf install brave-browser
+
+unless you wanna use flatpak or for bazzite you might get away with this "rpm-ostree install brave-browser"
+
+LibreWolf: sudo dnf config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo
+
+sudo dnf install librewolf
+they also say on the Librewolf site "You should agree to all prompts that want to import the OpenPGP key with the key ID 0x2B12EF16 and the fingerprint 662E 3CDD 6FE3 2900 2D0C A5BB 4033 9DD8 2B12 EF16."
+
+or go though their offical flatpak or use sudo dnf config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo and rpm-ostree install librewolf for bazzite
+
+Chromium: for chromium open up the store and type in chromium and it should come up as fedora linux but if you want you can enable the google chrome option in settings and get the unverified flatpak
+or use sudo dnf install chromium and for bazzite rpm-ostree install chromium
 
 Step 4 is installing games i'll leave some different way depending on the launcher 
 
@@ -39,7 +51,7 @@ Heroic Launcher: Either use the appimage or use the flatpak
 
 Lutris: you could either use the flatpak or use sudo dnf install lutris
 
-Minecraft use the other distribution download button
+Minecraft use the other distribution download button or i wouldn't recommand this but there is a unverified fatpak for this
 
 Clone hero just install like a appimage
 
