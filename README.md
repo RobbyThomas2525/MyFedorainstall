@@ -66,7 +66,7 @@ step 4.5 GAME ADD ONS
 
 Mangohud use releases on github and use "./mangohud-setup.sh install" command in terminal
 
-Goverlay use appimage or apparently sudo dnf install goverlay -y will work 
+Goverlay use appimage or apparently sudo dnf install goverlay -y will work or use the appimage on their github
 
 Step 5 is the other stuff 
 
