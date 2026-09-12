@@ -11,7 +11,7 @@ https://rpmfusion.org/Configuration
 Then after install full ffmpeg using this because of some reason fedora doesn't support H264 out of the box 
 sudo dnf swap ffmpeg-free ffmpeg --allowerasing
 
-the other part is customizing the OS with these quick settings they should be the same as my arch page 
+STEP 2.5 The other part is customizing the OS with these quick settings they should be the same as my arch page 
 since i'm still plan on using KDE
 
 "Also to customize it so something like kdewallet stops popping up here's some helpful guides Startup with nothing opened: https://forum.manjaro.org/t/restart-shut-down-and-resume-from-sleep-dont-work/170282/4
