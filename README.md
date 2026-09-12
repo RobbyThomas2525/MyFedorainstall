@@ -30,7 +30,7 @@ sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-releas
 
 sudo dnf install brave-browser
 
-unless you wanna use flatpak or for bazzite you might get away with this "rpm-ostree install brave-browser"
+unless you wanna use flatpak or for bazzite you might get away with this "run0 curl -fsSLo /etc/yum.repos.d/brave-browser.repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo" "rpm-ostree install brave-browser"
 
 LibreWolf: sudo dnf config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo
 
