@@ -37,10 +37,9 @@ LibreWolf: sudo dnf config-manager addrepo --from-repofile=https://repo.librewol
 sudo dnf install librewolf
 they also say on the Librewolf site "You should agree to all prompts that want to import the OpenPGP key with the key ID 0x2B12EF16 and the fingerprint 662E 3CDD 6FE3 2900 2D0C A5BB 4033 9DD8 2B12 EF16."
 
-or go though their offical flatpak or use sudo dnf config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo and rpm-ostree install librewolf for bazzite
+or go though their offical flatpak or use "sudo dnf config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo" and "rpm-ostree install librewolf" for bazzite
 
-Chromium: for chromium open up the store and type in chromium and it should come up as fedora linux but if you want you can enable the google chrome option in settings and get the unverified flatpak
-or use sudo dnf install chromium and for bazzite rpm-ostree install chromium
+Chromium: The only recent version of chromium seems to be the flatpak version enable it by going into the store then settings then click google chrome but there's the commands if they change that sudo dnf install chromium and for bazzite rpm-ostree install chromium
 
 Step 4 is installing games i'll leave some different way depending on the launcher 
 
