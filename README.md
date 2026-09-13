@@ -84,6 +84,10 @@ Timeshift: use this command 'sudo dnf update' and 'sudo dnf install timeshift'
 
 GIMP use flatpak or appimage
 
+Gnome Boxes (the program i use for VM's) use "sudo dnf install gnome-boxes -y" for you can use the flatpak but your missing features that way
+like no USB passthrough Missing Features like TPM Emulation & UEFI and Limited Device Sharing or at least that's what google says i only knew about the usb passthrough
+
+
 
 
 
