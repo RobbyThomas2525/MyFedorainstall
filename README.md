@@ -87,6 +87,8 @@ GIMP use flatpak or appimage
 Gnome Boxes (the program i use for VM's) use "sudo dnf install gnome-boxes -y" or you can use the flatpak but your missing features that way
 like no USB passthrough Missing Features like TPM Emulation & UEFI and Limited Device Sharing or at least that's what google says i only knew about the usb passthrough
 
+Localsend (to send files for mobile and pc unless you wanna use kde connect) use either the appimage or the verified flatpak 
+
 
 
 
