@@ -26,7 +26,7 @@ For appimages to put on desktop us this to get by the root problem in arch or an
 add the desktop entry then save in \user\share\applications then use kde menu editor to move to where you want 
 [Desktop Entry] Name= Exec=/path/to/your/App.AppImage Icon=/path/to/an/icon.png Type=Application Categories=Utility;"
 
-Step 3 is browsers i would try and avoid using flatpaks for browsers but here's the ways for 3 popular ones
+Step 3 is browsers i would try and avoid using flatpaks for browsers but here's the ways for a few popular ones
 
 Brave: sudo dnf install dnf-plugins-core
 
@@ -45,8 +45,19 @@ they also say on the Librewolf site
 
 or go though their offical flatpak or use "sudo dnf config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo" and "rpm-ostree install librewolf" for bazzite
 
+Vivaldi you can download it from their site like windows and open it it will take you to the store and you can install from there 
+
+Opera this ones kind of weird you have to go to google and type in opera fedora and use the one from opera.com that says RPM package
+cause if you just go to the download page at least for me right now it downloads a .deb file
+
 Chromium: The only recent version of chromium seems to be the flatpak version enable it by going into the store then settings then click google chrome 
 but there's the commands if they change that sudo dnf install chromium and for bazzite rpm-ostree install chromium
+
+Google Chrome either download it from the offical site or use this "sudo dnf install fedora-workstation-repositories" 
+"sudo dnf config-manager setopt google-chrome.enabled=1" "sudo dnf install google-chrome-stable"
+
+Tor (if you don't just wanna use tails) there's three ways one is though their website another is using this command "sudo dnf install torbrowser-launcher"
+and the 3rd is going though the store and i would use the fedora linux one i havn't tried the fedora flatpak one 
 
 Step 4 is installing games i'll leave some different way depending on the launcher 
 
